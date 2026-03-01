@@ -4,7 +4,7 @@ import { useCryptoStore } from "../store"
 import type { Pair } from "../types"
 import ErrorMessage from "./ErrorMessage"
 
-export default function CriptoSearchForm() {
+export default function CryptoSearchForm() {
   const cryptocurrencies = useCryptoStore((state) => state.cryptocurrencies)
   const fetchData = useCryptoStore((state) => state.fetchData)
 
@@ -53,7 +53,7 @@ export default function CriptoSearchForm() {
         </select>
       </div>
       <div className='field'>
-        <label htmlFor="cryptocurrency">Criptomodena:</label>
+        <label htmlFor="cryptocurrency">Cryptomodena:</label>
         <select
           name="cryptocurrency"
           id="cryptocurrency"
