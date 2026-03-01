@@ -15,7 +15,6 @@ function App() {
       <h1 className="app-title">
         Coizador de <span>Cryptomonedas</span>
       </h1>
-
       <div className="content">
         <CryptoSearchForm />
         <CryptoPriceDisplay />
